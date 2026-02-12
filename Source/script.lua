@@ -1,6 +1,6 @@
 --// Script by twistedk1d
 
-local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptsIsRobloxGame/Blox-Strike/refs/heads/main/Library/source.lua"))() --// UI Library Rayfield
+local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/twistedk1d/BloxStrike/refs/heads/main/Source/UI/source.lua"))() --// UI Library Rayfield
 
 --// Window creation
 local Window = Rayfield:CreateWindow({
