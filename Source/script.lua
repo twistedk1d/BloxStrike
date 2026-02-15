@@ -102,6 +102,9 @@ local function hideOriginalKnife(knife)
         if part:IsA("BasePart") or part:IsA("MeshPart") then
             part.Transparency = 1
         end
+        if part:IsA("Texture") then
+            part.Transparency = 1
+        end
     end
 end
 
